@@ -1,4 +1,4 @@
-package com.TP.voiture;
+package com.TP.voiture.classes;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
