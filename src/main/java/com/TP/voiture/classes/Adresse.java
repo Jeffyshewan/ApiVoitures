@@ -15,7 +15,10 @@ import java.util.Set;
 public class Adresse {
     @Id
     private int id;
-    private String name;
+    private Integer numero;
+    private String rue;
+    private String ville;
+    private Integer codePostal;
     @OneToMany
     @JoinColumn(name = "adresse_id")
     private Set<Adresse> adresses;
