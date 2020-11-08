@@ -1,5 +1,7 @@
-package com.TP.voiture;
+package com.TP.voiture.controllers;
 
+import com.TP.voiture.classes.Client;
+import com.TP.voiture.repositories.ClientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

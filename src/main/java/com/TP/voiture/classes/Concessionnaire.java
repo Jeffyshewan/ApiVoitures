@@ -1,4 +1,4 @@
-package com.TP.voiture;
+package com.TP.voiture.classes;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,11 +12,11 @@ import java.util.Set;
 @Entity
 @Data
 @NoArgsConstructor
-public class Voiture {
+public class Concessionnaire {
     @Id
     private int id;
     private String name;
     @OneToMany
-    @JoinColumn(name = "voiture_id")
-    private Set<Voiture> voitures;
+    @JoinColumn(name = "concessionnaire_id")
+    private Set<Concessionnaire> concessionnaires;
 }
