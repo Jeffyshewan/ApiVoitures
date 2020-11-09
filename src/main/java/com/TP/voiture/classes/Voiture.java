@@ -18,10 +18,10 @@ public class Voiture {
     private int id;
     private String name;
     private String marque;
-    private Integer numeroDeSerie;
-    private Date dateImmatriculation;
+    private int numero_de_serie;
+    private Date date_immatriculation;
     private String couleur;
-    private Integer nombrePortes;
+    private int nombre_portes;
     private String categorie;
     @OneToMany
     @JoinColumn(name = "voiture_id")
