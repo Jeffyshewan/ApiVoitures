@@ -1,6 +1,6 @@
 package com.TP.voiture.repositories;
 
-import com.TP.voiture.classes.Voiture;
+import com.TP.voiture.models.Voiture;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 

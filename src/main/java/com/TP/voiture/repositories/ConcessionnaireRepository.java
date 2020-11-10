@@ -1,6 +1,6 @@
 package com.TP.voiture.repositories;
 
-import com.TP.voiture.classes.Concessionnaire;
+import com.TP.voiture.models.Concessionnaire;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
