@@ -1,4 +1,4 @@
-package com.TP.voiture.classes;
+package com.TP.voiture.models;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,15 +12,12 @@ import java.util.Set;
 @Entity
 @Data
 @NoArgsConstructor
-public class Adresse {
+public class Client {
     @Id
     private int id;
-    private int numero;
-    private String rue;
-    private String ville;
-    private int code_postal;
+    private String name;
+    private String voitures;
     @OneToMany
-    @JoinColumn(name = "adresse_id")
-    private Set<Adresse> adresses;
-
+    @JoinColumn(name = "client_id")
+    private Set<Client> clients;
 }

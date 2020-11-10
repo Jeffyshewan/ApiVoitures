@@ -1,6 +1,6 @@
 package com.TP.voiture.controllers;
 
-import com.TP.voiture.classes.Concessionnaire;
+import com.TP.voiture.models.Concessionnaire;
 import com.TP.voiture.repositories.ConcessionnaireRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
