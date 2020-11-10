@@ -1,6 +1,6 @@
 package com.TP.voiture.controllers;
 
-import com.TP.voiture.classes.Adresse;
+import com.TP.voiture.models.Adresse;
 import com.TP.voiture.repositories.AdresseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

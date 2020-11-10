@@ -1,6 +1,6 @@
 package com.TP.voiture.controllers;
 
-import com.TP.voiture.classes.Marque;
+import com.TP.voiture.models.Marque;
 import com.TP.voiture.repositories.MarqueRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
